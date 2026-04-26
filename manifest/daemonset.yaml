@@ -37,7 +37,7 @@ spec:
             path: /run/dbus
       containers:
         - name: kucero
-          image: jenting/kucero:v1.6.7
+          image: jenting/kucero:v1.7.0
           imagePullPolicy: IfNotPresent
           securityContext:
             allowPrivilegeEscalation: false

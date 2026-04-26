@@ -22,13 +22,9 @@ By default, kucero enables kubelet client `rotateCertificates: true` and server 
 
 ## Build Requirements
 
-- Golang >= 1.17
+- Golang >= 1.21
 - Docker
 - Kustomize
-
-## Container Requirement Package
-
-- /usr/bin/nsenter
 
 ## Kubeadm Compatibility
 
